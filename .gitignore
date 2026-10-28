@@ -1,0 +1,24 @@
+# Local browser profiles and their session data
+.chrome*/
+.edge*/
+
+# Local preview screenshots and test captures
+/footer-*.png
+/service-*.png
+
+# Local environment files
+.env
+.env.*
+!.env.example
+*.local
+
+# Operating-system and editor files
+Thumbs.db
+Desktop.ini
+.DS_Store
+.vscode/
+
+# Logs and Python cache
+*.log
+__pycache__/
+*.py[cod]
