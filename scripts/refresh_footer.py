@@ -67,7 +67,7 @@ for html_path in sorted(ROOT.rglob("*.html")):
     updated, replacements = footer_pattern.subn(FOOTER, original, count=1)
     updated = re.sub(
         r'/assets/brand/theme\.css(?:\?v=[^"\']*)?',
-        '/assets/brand/theme.css?v=20261028-9',
+        '/assets/brand/theme.css?v=20261028-10',
         updated,
     )
     if replacements:

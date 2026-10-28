@@ -138,6 +138,24 @@
   box-shadow: 0 .8rem 2rem rgba(0, 0, 0, .3);
 }
 
+/* Phoenix identity: replaces the inherited Tappable hero chevron. */
+.hero_bg-logo.brand-phoenix-watermark {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: transparent;
+  overflow: visible;
+}
+
+.brand-phoenix-watermark__image {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  opacity: .12;
+  filter: saturate(.9);
+}
+
 .brand-footer__nav {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
